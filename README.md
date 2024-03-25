@@ -42,7 +42,8 @@ Referred to the RSNA2022 1st solution and modified the segmentation models pytor
 
 ## Downloading the repository
 ```
-git clone ----
+git clone https://github.com/ShunsukeKikuchi/MedAI6.git
+cd MedAI6
 ```
 
 ## Setting up the environment:
