@@ -48,5 +48,5 @@ cd MedAI6
 
 ## Setting up the environment:
 ```
-# I'm gonna upload a configuration file soon.
+# I'm gonna upload a configuration file soon, sorry for the inconvenience
 ```
