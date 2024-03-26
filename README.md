@@ -6,6 +6,8 @@ This repository contains my 4th-Place Solution for Medical AI Contest 2024. (htt
 
 I thought it was very helpful to be able to see concrete code, so I will published the code I used for this competition here. I had slightly modified the readability of the code, but due to various circumstances (server maintenance), I have not been able to confirm the reproducibility of the code, and I have not been able to obtain the environment settings.
 
+https://www.kaggle.com/competitions/medical-ai-contest2024/discussion/486748
+
 ### Submissions/Scores
 Final Submission：(UNet + VNet + SwinRUNet + DynUNet) + <br>
 　　　　(Pretrained / Attention-UNet) + (Pretrained / Attention-UNet++) <br>
@@ -37,7 +39,6 @@ Referred to the RSNA2022 1st solution and modified the segmentation models pytor
 - Attention Unet++ <br>
   Encoder: 	seresnext50_32x4d (pre-trained)<br>
   cv 0.904, LB 0.879
-
 
 
 ## Downloading the repository
