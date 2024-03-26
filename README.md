@@ -4,7 +4,7 @@ This repository contains my 4th-Place Solution for Medical AI Contest 2024. (htt
 ## Overview
 初学者目線で具体的なコードを見れるのはかなりありがたいと感じるため、こちらに今回のコンペで使用していたコードを公開します。コードの可読性を多少修正しましたが、諸々の事情(サーバーのメンテ)につきコードの再現性は確認が取れていないのと、環境設定が取得できていません。3月中にはに更新できるかと思います。<br>
 
-I thought it was very helpful to be able to see concrete code, so I will published the code I used for this competition here. I had slightly modified the readability of the code, but due to various circumstances (server maintenance), I have not been able to confirm the reproducibility of the code, and I have not been able to obtain the environment settings.
+I thought it was helpful to be able to see concrete code, so I will published the code I used for this competition here. I had slightly modified the readability of the code, but due to various circumstances (server maintenance), I have not been able to confirm the reproducibility of the code, and I have not been able to obtain the environment settings.
 
 https://www.kaggle.com/competitions/medical-ai-contest2024/discussion/486748
 
@@ -20,7 +20,7 @@ The first 4 models are based on monai, and the remaining 2 are modified from the
 #### MONAI-based
 公開ベースラインを参考にmonaiのモデルを利用。
 
-Referred to the public baseline and used the monai model.
+Referred to the public baseline and used monai models.
 - Unet: cv 0.85, lb 0.83 (epoch=380)
 - Vnet: cv 0.85 lb 0.82 (epoch=250)
 - SwinRUnet: cv 0.863, lb 0.832 (epoch=300)
@@ -31,7 +31,7 @@ Referred to the public baseline and used the monai model.
 #### Pretrained + Segmentation models pytorch
 RSNA2022 1st solを参考に、segmentation models pytorchのモデルを3D入力に対応できるように修正。Encoderは事前学習済みモデルを使用。
 
-Referred to the RSNA2022 1st solution and modified the segmentation models pytorch model to deal with 3D input. The encoder is a pre-trained model.
+Referred to the RSNA2022 1st solution and modified the segmentation models pytorch model with 3D inputs. The encoder are pre-trained models.
 
 - Attention Unet <br>
   Encoder: resnext50d_32x4d (pre-trained) <br>
