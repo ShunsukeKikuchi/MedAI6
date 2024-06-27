@@ -2,9 +2,9 @@
 This repository contains my 4th-Place Solution for Medical AI Contest 2024. (https://www.kaggle.com/competitions/medical-ai-contest2024/submissions)
 
 ## Overview
-初学者目線で具体的なコードを見れるのはかなりありがたいと感じるため、こちらに今回のコンペで使用していたコードを公開します。コードの可読性を多少修正しましたが、諸々の事情(サーバーのメンテ)につきコードの再現性は確認が取れていないのと、環境設定が取得できていません。3月中にはに更新できるかと思います。<br>
+初学者目線で具体的なコードを見れるのはかなりありがたいと感じるため、こちらに今回のコンペで使用していたコードを公開します。コードの可読性を多少修正しました<br>
 
-I thought it was helpful to see concrete code, so I will published the code I used for this competition here. I had slightly modified the readability of the code, but due to various circumstances (server maintenance), I have not been able to confirm the reproducibility of the code, and I have not been able to obtain the environment settings.
+I thought it was helpful to see concrete code, so I will published the code I used for this competition here. I had modified the readability of the code from the origianl.
 
 https://www.kaggle.com/competitions/medical-ai-contest2024/discussion/486748
 
